@@ -1,0 +1,339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF384220159897AE00E7EDE2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF38421F159897AE00E7EDE2 /* UIKit.framework */; };
+		FF384222159897AE00E7EDE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF384221159897AE00E7EDE2 /* Foundation.framework */; };
+		FF384224159897AE00E7EDE2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF384223159897AE00E7EDE2 /* CoreGraphics.framework */; };
+		FF38422A159897AE00E7EDE2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FF384228159897AE00E7EDE2 /* InfoPlist.strings */; };
+		FF38422C159897AE00E7EDE2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF38422B159897AE00E7EDE2 /* main.m */; };
+		FF384230159897AE00E7EDE2 /* IRRTESAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF38422F159897AE00E7EDE2 /* IRRTESAppDelegate.m */; };
+		FF38425C1598993800E7EDE2 /* libIRRichTextEditor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF38424A1598990100E7EDE2 /* libIRRichTextEditor.a */; };
+		FF38425E1598994100E7EDE2 /* IRRichTextEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF38425D1598994100E7EDE2 /* IRRichTextEditor.bundle */; };
+		FF38426215989A2A00E7EDE2 /* IRRTESStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF38426115989A2A00E7EDE2 /* IRRTESStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF3842491598990100E7EDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3842411598990100E7EDE2 /* IRRichTextEditor.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FF95F2E5152E1939008DA649;
+			remoteInfo = IRRichTextEditor;
+		};
+		FF38425A1598993200E7EDE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF3842411598990100E7EDE2 /* IRRichTextEditor.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBEE73915988B260057BEA0;
+			remoteInfo = IRRichTextEditor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF38421B159897AE00E7EDE2 /* IRRichTextEditor-Sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IRRichTextEditor-Sample.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF38421F159897AE00E7EDE2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FF384221159897AE00E7EDE2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FF384223159897AE00E7EDE2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FF384227159897AE00E7EDE2 /* IRRichTextEditor-Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IRRichTextEditor-Sample-Info.plist"; sourceTree = "<group>"; };
+		FF384229159897AE00E7EDE2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FF38422B159897AE00E7EDE2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF38422D159897AE00E7EDE2 /* IRRichTextEditor-Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IRRichTextEditor-Sample-Prefix.pch"; sourceTree = "<group>"; };
+		FF38422E159897AE00E7EDE2 /* IRRTESAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IRRTESAppDelegate.h; path = "IRRichTextEditor-Sample/IRRTESAppDelegate.h"; sourceTree = "<group>"; };
+		FF38422F159897AE00E7EDE2 /* IRRTESAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = IRRTESAppDelegate.m; path = "IRRichTextEditor-Sample/IRRTESAppDelegate.m"; sourceTree = "<group>"; };
+		FF3842411598990100E7EDE2 /* IRRichTextEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRRichTextEditor.xcodeproj; path = IRRichTextEditor/IRRichTextEditor.xcodeproj; sourceTree = "<group>"; };
+		FF38425D1598994100E7EDE2 /* IRRichTextEditor.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IRRichTextEditor.bundle; path = ../IRRichTextEditor/IRRichTextEditor/IRRichTextEditor.bundle; sourceTree = "<group>"; };
+		FF38426115989A2A00E7EDE2 /* IRRTESStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = IRRTESStoryboard.storyboard; path = "IRRichTextEditor-Sample/IRRTESStoryboard.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF384218159897AE00E7EDE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF38425C1598993800E7EDE2 /* libIRRichTextEditor.a in Frameworks */,
+				FF384220159897AE00E7EDE2 /* UIKit.framework in Frameworks */,
+				FF384222159897AE00E7EDE2 /* Foundation.framework in Frameworks */,
+				FF384224159897AE00E7EDE2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF384210159897AE00E7EDE2 = {
+			isa = PBXGroup;
+			children = (
+				FF38422E159897AE00E7EDE2 /* IRRTESAppDelegate.h */,
+				FF38422F159897AE00E7EDE2 /* IRRTESAppDelegate.m */,
+				FF38426115989A2A00E7EDE2 /* IRRTESStoryboard.storyboard */,
+				FF384226159897AE00E7EDE2 /* Supporting Files */,
+				FF38425F1598994B00E7EDE2 /* Resources */,
+				FF38421E159897AE00E7EDE2 /* Frameworks */,
+				FF38421C159897AE00E7EDE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF38421C159897AE00E7EDE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF38421B159897AE00E7EDE2 /* IRRichTextEditor-Sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF38421E159897AE00E7EDE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF3842411598990100E7EDE2 /* IRRichTextEditor.xcodeproj */,
+				FF38421F159897AE00E7EDE2 /* UIKit.framework */,
+				FF384221159897AE00E7EDE2 /* Foundation.framework */,
+				FF384223159897AE00E7EDE2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF384226159897AE00E7EDE2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF384227159897AE00E7EDE2 /* IRRichTextEditor-Sample-Info.plist */,
+				FF384228159897AE00E7EDE2 /* InfoPlist.strings */,
+				FF38422B159897AE00E7EDE2 /* main.m */,
+				FF38422D159897AE00E7EDE2 /* IRRichTextEditor-Sample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = "IRRichTextEditor-Sample";
+			sourceTree = "<group>";
+		};
+		FF3842421598990100E7EDE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF38424A1598990100E7EDE2 /* libIRRichTextEditor.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF38425F1598994B00E7EDE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF38425D1598994100E7EDE2 /* IRRichTextEditor.bundle */,
+			);
+			name = Resources;
+			path = "IRRichTextEditor-Sample";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF38421A159897AE00E7EDE2 /* IRRichTextEditor-Sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF384239159897AE00E7EDE2 /* Build configuration list for PBXNativeTarget "IRRichTextEditor-Sample" */;
+			buildPhases = (
+				FF384217159897AE00E7EDE2 /* Sources */,
+				FF384218159897AE00E7EDE2 /* Frameworks */,
+				FF384219159897AE00E7EDE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF38425B1598993200E7EDE2 /* PBXTargetDependency */,
+			);
+			name = "IRRichTextEditor-Sample";
+			productName = "IRRichTextEditor-Sample";
+			productReference = FF38421B159897AE00E7EDE2 /* IRRichTextEditor-Sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF384212159897AE00E7EDE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = IRRTES;
+				ORGANIZATIONNAME = "Iridia Productions";
+			};
+			buildConfigurationList = FF384215159897AE00E7EDE2 /* Build configuration list for PBXProject "IRRichTextEditor-Sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FF384210159897AE00E7EDE2;
+			productRefGroup = FF38421C159897AE00E7EDE2 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF3842421598990100E7EDE2 /* Products */;
+					ProjectRef = FF3842411598990100E7EDE2 /* IRRichTextEditor.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF38421A159897AE00E7EDE2 /* IRRichTextEditor-Sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FF38424A1598990100E7EDE2 /* libIRRichTextEditor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libIRRichTextEditor.a;
+			remoteRef = FF3842491598990100E7EDE2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF384219159897AE00E7EDE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF38422A159897AE00E7EDE2 /* InfoPlist.strings in Resources */,
+				FF38425E1598994100E7EDE2 /* IRRichTextEditor.bundle in Resources */,
+				FF38426215989A2A00E7EDE2 /* IRRTESStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF384217159897AE00E7EDE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF38422C159897AE00E7EDE2 /* main.m in Sources */,
+				FF384230159897AE00E7EDE2 /* IRRTESAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF38425B1598993200E7EDE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IRRichTextEditor;
+			targetProxy = FF38425A1598993200E7EDE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF384228159897AE00E7EDE2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF384229159897AE00E7EDE2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF384237159897AE00E7EDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/IRRichTextEditor/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF384238159897AE00E7EDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/IRRichTextEditor/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF38423A159897AE00E7EDE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRRichTextEditor-Sample/IRRichTextEditor-Sample-Prefix.pch";
+				INFOPLIST_FILE = "IRRichTextEditor-Sample/IRRichTextEditor-Sample-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FF38423B159897AE00E7EDE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IRRichTextEditor-Sample/IRRichTextEditor-Sample-Prefix.pch";
+				INFOPLIST_FILE = "IRRichTextEditor-Sample/IRRichTextEditor-Sample-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF384215159897AE00E7EDE2 /* Build configuration list for PBXProject "IRRichTextEditor-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF384237159897AE00E7EDE2 /* Debug */,
+				FF384238159897AE00E7EDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF384239159897AE00E7EDE2 /* Build configuration list for PBXNativeTarget "IRRichTextEditor-Sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF38423A159897AE00E7EDE2 /* Debug */,
+				FF38423B159897AE00E7EDE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF384212159897AE00E7EDE2 /* Project object */;
+}

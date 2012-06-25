@@ -1,0 +1,3 @@
+[submodule "IRRichTextEditor"]
+	path = IRRichTextEditor
+	url = git://github.com/iridia/IRRichTextEditor.git
