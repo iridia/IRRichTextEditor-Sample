@@ -16,6 +16,7 @@
 		FF38425C1598993800E7EDE2 /* libIRRichTextEditor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF38424A1598990100E7EDE2 /* libIRRichTextEditor.a */; };
 		FF38425E1598994100E7EDE2 /* IRRichTextEditor.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF38425D1598994100E7EDE2 /* IRRichTextEditor.bundle */; };
 		FF38426215989A2A00E7EDE2 /* IRRTESStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF38426115989A2A00E7EDE2 /* IRRTESStoryboard.storyboard */; };
+		FFF578DB1598AF81001D8D0E /* IRRTESRichTextEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF578DA1598AF81001D8D0E /* IRRTESRichTextEditorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		FF3842411598990100E7EDE2 /* IRRichTextEditor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IRRichTextEditor.xcodeproj; path = IRRichTextEditor/IRRichTextEditor.xcodeproj; sourceTree = "<group>"; };
 		FF38425D1598994100E7EDE2 /* IRRichTextEditor.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = IRRichTextEditor.bundle; path = ../IRRichTextEditor/IRRichTextEditor/IRRichTextEditor.bundle; sourceTree = "<group>"; };
 		FF38426115989A2A00E7EDE2 /* IRRTESStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = IRRTESStoryboard.storyboard; path = "IRRichTextEditor-Sample/IRRTESStoryboard.storyboard"; sourceTree = "<group>"; };
+		FFF578D91598AF81001D8D0E /* IRRTESRichTextEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IRRTESRichTextEditorViewController.h; path = "IRRichTextEditor-Sample/IRRTESRichTextEditorViewController.h"; sourceTree = "<group>"; };
+		FFF578DA1598AF81001D8D0E /* IRRTESRichTextEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IRRTESRichTextEditorViewController.m; path = "IRRichTextEditor-Sample/IRRTESRichTextEditorViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +73,8 @@
 			isa = PBXGroup;
 			children = (
 				FF38422E159897AE00E7EDE2 /* IRRTESAppDelegate.h */,
+				FFF578D91598AF81001D8D0E /* IRRTESRichTextEditorViewController.h */,
+				FFF578DA1598AF81001D8D0E /* IRRTESRichTextEditorViewController.m */,
 				FF38422F159897AE00E7EDE2 /* IRRTESAppDelegate.m */,
 				FF38426115989A2A00E7EDE2 /* IRRTESStoryboard.storyboard */,
 				FF384226159897AE00E7EDE2 /* Supporting Files */,
@@ -210,6 +215,7 @@
 			files = (
 				FF38422C159897AE00E7EDE2 /* main.m in Sources */,
 				FF384230159897AE00E7EDE2 /* IRRTESAppDelegate.m in Sources */,
+				FFF578DB1598AF81001D8D0E /* IRRTESRichTextEditorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

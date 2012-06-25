@@ -7,17 +7,23 @@
         <!--Rich Text Editor View Controller-->
         <scene sceneID="PXj-DD-6hz">
             <objects>
-                <viewController id="yLC-JE-BvP" customClass="IRRichTextEditorViewController" sceneMemberID="viewController">
+                <viewController id="yLC-JE-BvP" customClass="IRRTESRichTextEditorViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="PAG-pz-1dn" customClass="IRRichTextEditorView">
                         <rect key="frame" x="0.0" y="64" width="320" height="416"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="0.25" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="x16-ev-Nji"/>
+                    <navigationItem key="navigationItem" id="x16-ev-Nji">
+                        <barButtonItem key="leftBarButtonItem" style="done" systemItem="done" id="5mn-ba-ENx">
+                            <connections>
+                                <action selector="handleDone:" destination="yLC-JE-BvP" id="fwT-LE-kZj"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yjy-5m-OCQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="222" y="86"/>
+            <point key="canvasLocation" x="245" y="224"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="f7Q-4S-60p">
@@ -36,6 +42,12 @@
         </scene>
     </scenes>
     <classes>
+        <class className="IRRTESRichTextEditorViewController" superclassName="IRRichTextEditorViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IRRTESRichTextEditorViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="handleDone:"/>
+            </relationships>
+        </class>
         <class className="IRRichTextEditorView" superclassName="UIWebView">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/IRRichTextEditorView.h"/>
         </class>
